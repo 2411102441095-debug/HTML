@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo CSS Lengkap</title>
+  <style>
+    /* GLOBAL STYLE */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    h1 {
+      text-align: center;
+      background: linear-gradient(45deg, #3498db, #2c3e50);
+      -webkit-background-clip: text; /* Safari & Chrome */
+      background-clip: text; /* Standard CSS */
+      -webkit-text-fill-color: transparent;
+    }
+
+    h2 {
+      color: #34495e;
+      border-bottom: 3px solid #3498db;
+      margin-bottom: 15px;
+    }
+
+    h3 {
+      color: #e74c3c;
+      margin: 20px 0 10px;
+    }
+
+    .section {
+      background: #fff;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,.1);
+    }
+
+    /* BOX MODEL DEMO */
+    .box-model-demo {
+      margin: 30px auto;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    .margin-demo {
+      background: #f39c12;
+      padding: 20px;
+      border: 2px solid #e67e22;
+    }
+
+    .border-demo {
+      background: #e74c3c;
+      padding: 15px;
+      border: 3px solid #c0392b;
+      color: #fff;
+    }
+
+    .padding-demo {
+      background: #3498db;
+      padding: 20px;
+      color: #fff;
+    }
+
+    .content-demo {
+      background: #2ecc71;
+      padding: 15px;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .box-labels span {
+      display: inline-block;
+      padding: 5px 10px;
+      margin: 5px;
+      border-radius: 5px;
+      color: #fff;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .label-margin { background: #f39c12; }
+    .label-border { background: #e74c3c; }
+    .label-padding { background: #3498db; }
+    .label-content { background: #2ecc71; }
+
+    /* MARGIN EXAMPLES */
+    .margin-all {
+      background: #d5dbdb;
+      padding: 10px;
+      margin: 15px;
+      border: 1px solid #85929e;
+      text-align: center;
+    }
+
+    .margin-auto {
+      background: #3498db;
+      color: #fff;
+      padding: 15px;
+      margin: 20px auto;
+      width: 300px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    /* PADDING EXAMPLES */
+    .padding-all {
+      background: #d4edda;
+      border: 2px solid #155724;
+      padding: 20px;
+      margin: 10px 0;
+      text-align: center;
+    }
+
+    .padding-individual {
+      background: #d4edda;
+      border: 2px solid #155724;
+      padding: 5px 15px 10px 20px;
+      margin: 10px 0;
+      text-align: center;
+    }
+
+    /* BORDER EXAMPLES */
+    .border-solid {
+      border: 3px solid #3498db;
+      padding: 10px;
+      margin: 10px 0;
+    }
+
+    .border-dashed {
+      border: 3px dashed #e74c3c;
+      padding: 10px;
+      margin: 10px 0;
+    }
+
+    .border-dotted {
+      border: 3px dotted #f39c12;
+      padding: 10px;
+      margin: 10px 0;
+    }
+
+    .border-double {
+      border: 6px double #9b59b6;
+      padding: 10px;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Demo CSS Lengkap</h1>
+  <h2>Sub Judul</h2>
+  <h3>Judul Kecil</h3>
+
+  <div class="section">
+    <p>Ini adalah contoh konten di dalam section dengan efek box shadow.</p>
+  </div>
+
+  <h2>Box Model</h2>
+  <div class="box-model-demo">
+    <div class="margin-demo">Margin Demo</div>
+    <div class="border-demo">Border Demo</div>
+    <div class="padding-demo">Padding Demo</div>
+    <div class="content-demo">Content Demo</div>
+    <div class="box-labels">
+      <span class="label-margin">Margin</span>
+      <span class="label-border">Border</span>
+      <span class="label-padding">Padding</span>
+      <span class="label-content">Content</span>
+    </div>
+  </div>
+
+  <h2>Margin & Padding</h2>
+  <div class="margin-all">Margin All Sisi</div>
+  <div class="margin-auto">Margin Auto (tengah)</div>
+  <div class="padding-all">Padding All Sisi</div>
+  <div class="padding-individual">Padding Individual</div>
+
+  <h2>Border Styles</h2>
+  <div class="border-solid">Border Solid</div>
+  <div class="border-dashed">Border Dashed</div>
+  <div class="border-dotted">Border Dotted</div>
+  <div class="border-double">Border Double</div>
+
+</body>
+</html>
